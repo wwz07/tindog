@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    margin:0;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size:300%;
+    font-family: 'Sacramento', sans-serif;
+}
+
+.top-container{
+    background-color:#E4f9f5;
+    position:relative;
+    padding-top:100px;
+    
+}
+
+.pro{
+    text-decoration:underline;
+}
+
+.top-cloud{
+    margin-left:300px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    
+}
