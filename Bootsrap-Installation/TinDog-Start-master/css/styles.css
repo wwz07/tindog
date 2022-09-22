@@ -2,20 +2,23 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bolder;
+}
+
+.price-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+/*Heading*/
+.big-heading{
     font-family: 'Montserrat-Black', sans-serif;
     font-weight: bolder;
     size:3.5 rem;
     line-height: 1.5;
 }
-
-h2{
-    font-family: 'Montserrat-Black', sans-serif;
-    font-weight: bolder;
-    size:3 rem;
-    line-height: 1.5;
-}
-
 
 #title{
     background-color: #ef8172;
@@ -69,6 +72,7 @@ h3{
 p{
     color:#8f8f8f;
 }
+
 /* Features box */
 #features{
     padding:7% 15%;
@@ -101,6 +105,8 @@ p{
     color:#fff;
 }
 
+
+
 .testimonial-image{
    width:10%;
    border-radius:100%;
@@ -131,4 +137,40 @@ p{
 
 .pricing-column{
     padding:3% 2%;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align:center;
+    }
+
+    #img-iphone6{
+        position:static;
+        transform: rotate(0);
+    }
+}
+
+/*CTA SECTION*/
+
+#cta{
+    padding:7% 15%;
+    text-align:center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.cta-heading{
+    font-family:'Montserrat-Black', sans-serif;
+    font-size:3.5rem;
+}
+
+/*footer asection*/
+
+#footer{
+    text-align:center;
+    padding: 7% 15%;
+}
+
+.socmed-icon{
+    margin:20px 10px;
 }
